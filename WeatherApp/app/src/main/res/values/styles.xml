@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="locate">
+        <!-- Customize your theme here. -->
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:paddingBottom">8dp</item>
+    </style>
+
+    <style name="temperature">
+    <!-- Customize your theme here. -->
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">24dp</item>
+        <item name="android:layout_gravity">center_vertical</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/temp</item>
+    </style>
+
+    <style name="units">
+        <!-- Customize your theme here. -->
+        <item name="android:textSize">12dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:layout_gravity">end</item>
+    </style>
+
+</resources>

@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name" translatable="false">City Weather</string>
+    <string name="humidity">Humedad: </string>
+    <string name="speed">Viento: </string>
+    <string name="temperature" translatable="false">ºC</string>
+    <string name="speed_metric" translatable="false">km/h</string>
+    <string name="percentage" translatable="false">%</string>
+    <string name="days">Número de días: </string>
+    <string name="location">Introduzca una ciudad: </string>
+    <!-- Text to display in the list when there are no weatherndata [CHAR LIMIT=NONE] -->
+    <string name="no_weather_Data">No se ha encontrado información meteorológica.</string>
+    <!-- Error message when there is no internet connectivity [CHAR LIMIT=NONE] -->
+    <string name="no_internet_connection">No hay conexión a internet.</string>
+    <!-- Settings Menu Item [CHAR LIMIT=NONE] -->
+    <string name="settings_menu_item">Configuración</string>
+    <!-- Settings Activity Title [CHAR LIMIT=NONE] -->
+    <string name="settings_title">Configuración City Weather</string>
+    <!-- Strings For the number of forecast days Preference [CHAR LIMIT=30] -->
+    <string name="settings_number_of_days_label">Número de días a predecir</string>
+    <string name="settings_number_of_days_key" translatable="false">number_of_days</string>
+    <string name="settings_number_of_days_default" translatable="false">0</string>
+    <!-- Strings For the location Preference [CHAR LIMIT=30] -->
+    <string name="settings_location_label">Introduzca una localización</string>
+    <string name="settings_location_key" translatable="false">location</string>
+</resources>
